@@ -1,0 +1,6 @@
+title: App by Spiro — Legal
+theme: minima
+plugins: []
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
