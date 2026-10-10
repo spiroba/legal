@@ -13,6 +13,11 @@ Solune ("the App") is designed to work without an account and to keep your data 
 ## 1. Data you create in the App
 Everything you enter in the App (such as places you save, alert settings) is stored locally on your device. We do not have access to it. If you delete the App, this data is deleted with it.
 
+## 1a. Location, city search and weather
+- **Location.** When you tap "Use my location", the App asks iOS for your location once (While Using the App) and uses it on your device to calculate sun and moon times. The coordinates are stored only on your device. The App never tracks your location in the background.
+- **City names and search.** To name your location and to search for cities, the App sends the coordinates or the search text to Apple Maps (MapKit). Apple's privacy policy applies: https://www.apple.com/legal/privacy/
+- **Cloud cover (Pro).** To show cloud cover at sunset, the App sends the coordinates of the selected place to Apple Weather (WeatherKit). Apple does not use this data to identify you. Sun and moon times themselves are calculated entirely on your device.
+
 ## 2. Purchases
 Subscriptions and purchases are processed by Apple through the App Store. Apple handles payment details; we never see your card number. We receive an anonymous transaction record from Apple to unlock the features you paid for. See Apple's privacy policy at https://www.apple.com/legal/privacy/.
 
